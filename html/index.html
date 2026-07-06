@@ -2,11 +2,11 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Sông Đống Blog - Tin Thể Thao</title>
 </head>
 <body>
-    <!-- Menu -->
     <nav>
         <ul>
             <li><a href="index.html">Trang chủ</a></li>
@@ -18,51 +18,47 @@
     </nav>
 
     <main>
-        <h1>Tin tức thể thao hôm nay</h1>
+        <article class="news-item">
+            <img src="images/1.jpg" alt="Tin 1">
+            <h2>Tin tức nóng hổi 1</h2>
+            <p>Mô tả chi tiết về sự kiện thể thao đang diễn ra...</p>
+            <a href="#" class="read-more">Xem chi tiết</a>
+        </article>
 
-        <!-- 5 Chủ đề nội dung -->
-        <section class="news-item">
-            <img src="link_anh_1.jpg" alt="Ảnh chủ đề 1">
-            <h2>Tiêu đề chủ đề 1</h2>
-            <p>Mô tả ngắn gọn về tin tức này...</p>
-            <a href="#">Xem chi tiết</a>
-        </section>
+        <article class="news-item">
+            <img src="images/2.jpg" alt="Tin 2">
+            <h2>Tin tức nóng hổi 2</h2>
+            <p>Mô tả chi tiết về sự kiện thể thao đang diễn ra...</p>
+            <a href="#" class="read-more">Xem chi tiết</a>
+        </article>
 
-        <section class="news-item">
-            <img src="link_anh_2.jpg" alt="Ảnh chủ đề 2">
-            <h2>Tiêu đề chủ đề 2</h2>
-            <p>Mô tả ngắn gọn về tin tức này...</p>
-            <a href="#">Xem chi tiết</a>
-        </section>
+        <article class="news-item">
+            <img src="images/3.jpg" alt="Tin 3">
+            <h2>Tin tức nóng hổi 3</h2>
+            <p>Mô tả chi tiết về sự kiện thể thao đang diễn ra...</p>
+            <a href="#" class="read-more">Xem chi tiết</a>
+        </article>
 
-        <section class="news-item">
-            <img src="link_anh_3.jpg" alt="Ảnh chủ đề 3">
-            <h2>Tiêu đề chủ đề 3</h2>
-            <p>Mô tả ngắn gọn về tin tức này...</p>
-            <a href="#">Xem chi tiết</a>
-        </section>
+        <article class="news-item">
+            <img src="images/4.jpg" alt="Tin 4">
+            <h2>Tin tức nóng hổi 4</h2>
+            <p>Mô tả chi tiết về sự kiện thể thao đang diễn ra...</p>
+            <a href="#" class="read-more">Xem chi tiết</a>
+        </article>
 
-        <section class="news-item">
-            <img src="link_anh_4.jpg" alt="Ảnh chủ đề 4">
-            <h2>Tiêu đề chủ đề 4</h2>
-            <p>Mô tả ngắn gọn về tin tức này...</p>
-            <a href="#">Xem chi tiết</a>
-        </section>
-
-        <section class="news-item">
-            <img src="link_anh_5.jpg" alt="Ảnh chủ đề 5">
-            <h2>Tiêu đề chủ đề 5</h2>
-            <p>Mô tả ngắn gọn về tin tức này...</p>
-            <a href="#">Xem chi tiết</a>
-        </section>
-
-        <!-- Khu vực bình luận -->
-        <section id="comments">
-            <h3>Để lại phản hồi</h3>
-            <textarea placeholder="Nhập ý kiến của bạn..."></textarea>
-            <button id="btn-submit">Gửi bình luận</button>
-        </section>
+        <article class="news-item">
+            <img src="images/5.jpg" alt="Tin 5">
+            <h2>Tin tức nóng hổi 5</h2>
+            <p>Mô tả chi tiết về sự kiện thể thao đang diễn ra...</p>
+            <a href="#" class="read-more">Xem chi tiết</a>
+        </article>
     </main>
+
+    <section style="max-width: 1000px; margin: auto; padding: 20px;">
+        <h3>Phản hồi của bạn:</h3>
+        <textarea style="width: 100%; height: 100px;"></textarea>
+        <button id="btn-submit" style="margin-top: 10px; padding: 10px 20px;">Gửi phản hồi</button>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/script.js"></script>
