@@ -1,7 +1,6 @@
 $(document).ready(function(){
-  
-    $("h1").click(function(){
-        $(this).css("color", "red");
-        alert("Bạn đã chọn chủ đề này!");
+    $("#btn-submit").click(function(){
+        alert("Cảm ơn bạn đã phản hồi!");
+        $("textarea").val(""); // Xóa nội dung sau khi gửi
     });
 });
